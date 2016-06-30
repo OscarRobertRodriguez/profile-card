@@ -1,0 +1,152 @@
+
+
+
+
+
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/*-------------------*/ /*------------------- Single Elements /*----------------------------*/ /*-----------------------------*/
+
+
+body {
+
+}
+
+h2,  p {
+    text-align: center;
+}
+
+.heading {
+    font-family: "Orbitron", serif ;
+
+
+}
+
+.two p {
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/*-------------------*/ /*------------------- article container /*----------------------------*/ /*-----------------------------*/
+
+article {
+    width: 100%;
+    height: auto;
+    max-width: 319px;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+
+/*-----------------------*/ /*------------------------ Image --------------------------------*//*--------------------------------*/
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30%;
+    border: 2px solid ivory;
+}
+
+
+
+
+/*-----------------------*/ /*------------------------ floats --------------------------------*//*--------------------------------*/
+
+
+.float {
+    position: relative;
+    max-width: 300px;
+    float: left;
+}
+
+.zero {
+    left: 27px;
+    min-width: 200px;
+    font-family: "Orbitron", serif ;
+
+
+
+}
+
+.one {
+    text-align: center;
+    left: 59.5px;
+    min-width: 200px;
+    clear: left;
+}
+
+.two {
+    left: 9.5px;
+    min-width: 200px;
+    clear: left;
+}
+
+/*-----------------------*/ /*------------------------ footer --------------------------------*//*--------------------------------*/
+
+
+
+
+footer {
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
+
+
+footer a {
+    position: relative;
+    top: 1px;
+    color: black;
+    padding: 3px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-bottom: none;
+    background-color: white;
+}
+
+footer a:hover {
+    background-color: slategrey;
+    border-bottom: 2px solid black;
+}
+
+
+footer a:active {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+/*-----------------------*/ /*------------------------ About me section --------------------------------*//*--------------------------------*/
+
+
+
+
+/*-----------------------*/ /*------------------------ Name Section --------------------------------*//*--------------------------------*/
+
+
+
+
+/* profile link style */
+
+
