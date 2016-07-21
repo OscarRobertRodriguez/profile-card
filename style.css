@@ -14,12 +14,92 @@ html {
 }
 
 
+
+
+
+/* Navigation Bar*/
+
+
+
+nav {
+    position: fixed;
+    top:0;
+    left: 0;
+    overflow: hidden;
+     width: 100%;
+     height: 4.6em;
+    background-color: #0068b8;
+    background-image: url("https://www.transparenttextures.com/patterns/ravenna.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    margin-top: 0;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    width: 50em;
+    padding: 0;
+}
+
+
+
+nav ul li {
+    float: left;
+
+}
+
+nav ul li a {
+    display: block;
+    padding: .7em;
+    border: 1px solid white;
+    border-radius: .5em;
+    margin-top: 1em ;
+    margin-left: 1.5em;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-variant: small-caps;
+
+}
+
+nav ul a:focus {
+    co: #fff;
+}
+
+nav ul a:hover {
+    background-color: #0068b8;
+    color: white;
+    border: 1px solid #0068b8;
+
+}
+
+nav ul a:active {
+    position:relative;
+    bottom: .3em;
+    left: .2em;
+    color: #fff;
+
+
+}
+
+/*End Navigation*/
+
+
+
+
+
+
+
+
+
+
+
+
 /*-------------------*/ /*------------------- Single Elements /*----------------------------*/ /*-----------------------------*/
 
 
-body {
 
-}
 
 h2,  p {
     text-align: center;
@@ -39,6 +119,18 @@ h2,  p {
 
 /*-------------------*/ /*------------------- article container /*----------------------------*/ /*-----------------------------*/
 
+
+
+body {
+    background-color: #004f94;
+background-image: url("https://www.transparenttextures.com/patterns/purty-wood.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+width: 100%;
+}
+
+
+
+
 article {
     width: 100%;
     height: auto;
@@ -47,6 +139,7 @@ article {
     border: 2px solid black;
     background-color: grey;
     border-radius: 10px;
+    margin-top: 10em;
 }
 
 
@@ -102,6 +195,7 @@ footer {
     width: 100%;
     text-align: center;
     clear: both;
+    margin-top: 3em;
 }
 
 
@@ -131,7 +225,12 @@ footer a:active {
 
 
 
-
+.foot {
+    margin-top: 20em;
+    font-variant: small-caps;
+    color: #fff;
+    font-size: small;
+}
 
 
 
